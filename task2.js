@@ -1,16 +1,14 @@
 'use strict'
 const users = [
     { name: 'Mango', active: true },
-    { name: 'Poly', active: false },
+    { name: 'Poly', active: false},
     { name: 'Ajax', active: true },
     { name: 'Lux', active: false },
   ];
   
 const toggleUserState = user => {
   return new Promise(resolve => {
-    setTimeout(()=> {
       resolve(user);
-    },2000);
   });
 };
 
